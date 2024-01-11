@@ -394,6 +394,10 @@
     justify-content: center;
   }
   
+  .contact-section h2 {
+    margin-top: 0;
+  }
+  
   .contact-content p {
     margin: 0;
   }
@@ -663,7 +667,16 @@
     /* ==========================================================================
      About Page
      ========================================================================== */
-  
+    .mission .content-wrapper {
+      padding: 0;
+      border: 0;
+      margin: 70px 0 50px 0;
+    }
+
+    .mission h2 {
+      margin: 10px 0 0 0;
+    }
+
     .mission-content {
       display: flex;
       justify-content: space-between;
@@ -681,12 +694,17 @@
   
     .contact-section .content-wrapper h2 {
       width: 80%;
+    
     }
   
     .contact-content {
       display: flex;
       justify-content: space-between;
       align-items: flex-start;
+    }
+
+    .contact-section h2 {
+      margin-top: 0;
     }
   
     .contact-content h4 {
